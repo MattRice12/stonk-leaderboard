@@ -1,24 +1,11 @@
-# README
+# From Telegram
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1) A user will look like { telegram_id, name, username } (the 3 things telegram sends)
 
-Things you may want to cover:
 
-* Ruby version
+# Routes
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+GET leaderboard
+POST register
+POST buy
+POST sell
