@@ -3,6 +3,7 @@
 1) A user will look like { telegram_id, name, username } (the 3 things telegram sends)
 
 Example commands:
+  - /leaderboard
   - /buy 300 SDC@8
   - /sell 500 AAPL@400
 
