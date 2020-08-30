@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   post '/buy', to: 'trades#buy'
   post '/sell', to: 'trades#sell'
   get '/leaderboard', to: 'leaderboard#leaderboard'
+  
+  root 'leaderboard#leaderboard'
 end
