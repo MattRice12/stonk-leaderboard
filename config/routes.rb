@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   delete '/delete', to: 'users#delete'
   post '/buy', to: 'trades#buy'
   post '/sell', to: 'trades#sell'
-  get '/leaderboard', to: 'leaderboard#all'
+  get '/leaderboard', to: 'leaderboard#leaderboard'
 end

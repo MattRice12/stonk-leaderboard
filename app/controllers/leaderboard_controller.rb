@@ -1,5 +1,6 @@
 class LeaderboardController < ApplicationController
-    def all
+
+    def leaderboard
         users = User.includes(:trades).all
         @leaderboard = users.map { |user| 
             {
