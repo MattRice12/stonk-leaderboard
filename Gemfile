@@ -7,7 +7,7 @@ end
 
 ruby "2.7.0"
 
-gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
+gem 'rails', '~> 7.0.4'
 gem 'pg', '>= 0.18', '< 2.0'
 gem "actionpack", ">= 5.2.4.3"
 gem "actionview", ">= 5.2.4.3"
